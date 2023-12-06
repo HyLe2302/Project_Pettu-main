@@ -1,0 +1,30 @@
+Danh sách API
+
+Chung
+1. API đăng nhập: http://localhost:8082/Project_Pettu/api/login
+2. API đăng ký: http://localhost:8082/Project_Pettu/api/register
+3. API đăng xuất: http://localhost:8082/Project_Pettu/api/logout
+
+Admin
+1. API thông tin chi tiết của Pets: http://localhost:8082/Project_Pettu/api/pets/detailInfo
+2. API thông tin chi tiết của Services: http://localhost:8082/Project_Pettu/api/services/detailInfo
+3. API thông tin thời gian làm việc: http://localhost:8082/Project_Pettu/api/services/getTimeWorking
+4. API thông tin chi tiết của Expert Team: http://localhost:8082/Project_Pettu/api/expert_team/detailInfo
+5. API thông tin chi tiết của Expert Team theo Position: http://localhost:8082/Project_Pettu/api/expert_team/detailWithPosition
+6. API danh sách bài viết theo danh mục: http://localhost:8082/Project_Pettu/api/blogs/listBlog
+
+
+Admin Page
+1. API lấy danh sách người dùng: http://localhost:8082/Project_Pettu/api/dashboard/listUser
+2. API lấy danh sách nhân sự: http://localhost:8082/Project_Pettu/api/dashboard/listCompetentPersonnel
+3. API thay đổi trạng thái tài khoản của user: http://localhost:8082/Project_Pettu/api/dashboard/updateStatusAccount
+4. API duyệt trạng thái đăng ký dịch vụ: http://localhost:8082/Project_Pettu/api/dashboard/confirmRegisterService
+5. API lấy danh sách dịch vụ đăng cần chờ duyệt: http://localhost:8082/Project_Pettu/api/dashboard/getPendingService
+6. API lấy trạng thái dịch vụ người dùng đã đăng ký: http://localhost:8082/Project_Pettu/api/dashboard/isRegistered
+
+
+User
+1. API thay đổi thông tin người dùng: http://localhost:8082/Project_Pettu/api/users/update 
+2. API lấy danh sách dịch vụ đã đăng ký: http://localhost:8082/Project_Pettu/api/users/getService
+3. API đăng ký dịch vụ: http://localhost:8082/Project_Pettu/api/users/registerService
+4. API huỷ dịch vụ đã đăng ký: http://localhost:8082/Project_Pettu/api/users/deleteService
