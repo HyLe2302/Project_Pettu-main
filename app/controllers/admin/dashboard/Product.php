@@ -6,7 +6,7 @@ class Product extends Controller {
         $this->productModel = $this->model('ProductModel', 'admin');
     }
 
-    // Lấy danh sách tất cả Sản phẩm 
+    // Lấy danh sách tất cả Sản Phẩm 
     public function getListProduct() {
         $request = new Request();
 
