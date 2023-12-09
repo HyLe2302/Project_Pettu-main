@@ -25,7 +25,10 @@ $routes['api/dashboard/confirmRegisterService'] = 'admin/dashboard/user/confirmR
 $routes['api/dashboard/getPendingService'] = 'admin/dashboard/user/getPendingService'; // API lấy danh sách dịch vụ đã đăng ký đăng chờ duyệt
 $routes['api/dashboard/isRegistered'] = 'admin/dashboard/user/isRegistered'; // API lấy trạng thái dịch vụ người dùng đã đăng ký
 
-$routes['api/dashboard/getList'] = 'admin/dashboard/product/getListProduct';//API lấy danh sách sản phẩm
+$routes['api/dashboard/getListProduct'] = 'admin/dashboard/product/getListProduct';//API lấy danh sách sản phẩm
+$routes['api/dashboard/addProduct'] = 'admin/dashboard/product/addProduct';//API thêm sản phẩm
+$routes['api/dashboard/uppdateProduct'] = 'admin/dashboard/product/updateProduct';//API cập nhập sản phẩm
+$routes['api/dashboard/deleteProduct'] = 'admin/dashboard/product/deleteProduct';//API xóa sản phẩm
 
 // User API
 $routes['api/users/update'] = 'user/profile/updateInfo'; // API update thông tin người dùng - Profile
