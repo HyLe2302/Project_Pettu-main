@@ -89,6 +89,7 @@ class ProductModel extends Model {
             'evaluate_star' => $_POST['evaluate_star'],
             'evaluate_quantity' => $_POST['evaluate_quantity'],
             'product_status' => $_POST['product_status'],
+            'updated_at' => date('Y-m-d H:i:s'),
             ];
 
             $updateData = $this->db->table('product')
